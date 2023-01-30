@@ -27,7 +27,28 @@
 ### Criando novo projeto
 
 ```bash
-$ nest new devtrain
+$ nest new <nome_projeto>
+```
+
+### Criando um controller
+
+```bash
+$ nest generate controller <nome_do_controller>
+$ nest generate controller <nome_do_controller> --no-spec
+$ nest generate controller <nome_da_pasta>/<nome_do_controller>
+$ nest generate controller <nome_da_pasta>/<nome_do_controller> --dry-run
+```
+
+### Criando um service
+
+```bash
+$ nest generate service <nome_do_service>
+```
+
+### Criando um modulo
+
+```bash
+$ nest generate module <nome_do_module>
 ```
 
 ## Instalação
