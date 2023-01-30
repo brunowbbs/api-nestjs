@@ -51,6 +51,26 @@ $ nest generate service <nome_do_service>
 $ nest generate module <nome_do_module>
 ```
 
+## Configurando o TypeORM
+
+### Instalação do TypeORM e PostgresQL
+
+```bash
+$ yarn add typeorm @nestjs/typeorm pg
+```
+
+### Criando o container no docker
+
+```bash
+$ docker run --name postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+```
+
+### Startando o container
+
+```bash
+$ docker start postgres
+```
+
 ## Instalação
 
 ```bash
